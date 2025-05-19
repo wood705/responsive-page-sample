@@ -4,7 +4,7 @@
 
 ## git, gitHub
 
-- git: 형상관리도구(버전관리도구)
+- git: 형상관리도구(버전관리도구)(https://git-scm.com/)
 - gitHub: 저장소
 
 ### git 설치 및 버전 확인
@@ -23,14 +23,14 @@
 
 ### Global Git 사용자 설정
 
-- gitHub 가입 시 설정한 "이메일", "아이디" 사용
+- gitHub 가입시 설정한 "이메일", "아이디" 사용
 - 아이디, 이메일 설정
 - git config --global user.name "깃허브 가입시 아이디"
 - git config --global user.email "깃허브 가입시 이메일"
 
 - 참고: 터미널 청소하기 명령어 clear
 
------------------ 위 내용은 최초 한 번만 설정 ------------------------
+----------------- 위 내용은 최초 한 번만 설정 ----------------
 
 ### gitHub repository 생성하기
 
@@ -42,8 +42,20 @@
 - 수정 내용 커밋 하기
   - git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성"
 - gitHub repository에 최초 업로드
-- git status
+- 수정 내용 커밋 하기
+  - git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성"
+  - git status
 - gitHub repository 업데이트
   - git add .
   - git commit -m "커밋 내용"
   - git push origin main
+
+### 레포지토리 클론하기
+
+- 레포지토리와 같은 이름의 폴더 생성
+- git clone "본인 레포토리 주소" ./
+
+### 최종 코드로 업데이트 하기
+
+- git fetch
+- git merge origin/main
